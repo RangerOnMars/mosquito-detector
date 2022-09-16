@@ -58,7 +58,10 @@ with open(src_csv,"r+") as src:
                 
                 if (wav_idxs.count(id) == 0):
                     continue
-                
+                elif (float(length) < 0.02):
+                    os.remove(os.path.join(data_dir, id + ".wav"))
+                    print("Removed {}.wav for being too short".format(id))
+                    continue
                 csvwriter.writerow(data)
             
 print("Done")

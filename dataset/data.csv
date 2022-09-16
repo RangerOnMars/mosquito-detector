@@ -12,7 +12,6 @@ id,length,name,sample_rate,record_datetime,sound_type,species,gender,fed,plurali
 71,0.690455,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
 72,0.506019,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
 54,0.104041,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
-63,0.080395,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
 73,0.444539,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
 74,0.127687,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
 58,0.170249,CDC_Ae-aegypti_labelled_800.wav,8000,08-09-16 08:00,mosquito,ae aegypti,,,Single,,,phone,Alcatel 4009X,USA,Georgia,Atlanta,"CDC insect cultures, Atlanta",culture
@@ -2958,7 +2957,6 @@ id,length,name,sample_rate,record_datetime,sound_type,species,gender,fed,plurali
 3358,2.549016,#69-79.wav,44100,01-07-18 12:00,mosquito,,,,Single,,HLC,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
 3356,5.581003,#69-79.wav,44100,01-07-18 12:00,mosquito,,,,Single,,HLC,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
 3355,10.518044,#69-79.wav,44100,01-07-18 12:00,mosquito,,,,Single,,HLC,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
-3402,0.004885,#731-736.wav,44100,01-07-18 12:00,mosquito,,,,Single,,ABN,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
 3404,9.478252,#731-736.wav,44100,01-07-18 12:00,mosquito,,,,Single,,ABN,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
 3403,6.541948,#731-736.wav,44100,01-07-18 12:00,mosquito,an dirus,Female,t,Single,,ABN,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
 3405,0.80614,#731-736.wav,44100,01-07-18 12:00,mosquito,an dirus,Female,t,Single,,ABN,telinga,olympus,Thailand,Sai Yok District,Kanchanaburi Province,field site near Pu Teuy Village,cup
