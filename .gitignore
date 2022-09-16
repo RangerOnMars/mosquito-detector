@@ -45,6 +45,7 @@ Infantry_Vision
 *.wav
 *.avi
 *.jpeg
+*.png
 
 #Logs
 *.log
