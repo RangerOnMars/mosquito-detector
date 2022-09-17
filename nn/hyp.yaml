@@ -1,0 +1,6 @@
+epoch: 1000
+act: relu
+train_txt: train.txt
+val_txt: test.txt
+
+
