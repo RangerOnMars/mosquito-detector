@@ -38,6 +38,7 @@ Infantry_Vision
 
 #Cache
 *.cache
+*.pyc
 
 #Video & Image & Audio
 *.mp4
