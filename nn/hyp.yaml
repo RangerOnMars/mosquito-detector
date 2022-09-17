@@ -1,6 +1,14 @@
 epoch: 1000
+batch: 3072
+num_workers: 8
 act: relu
-train_txt: train.txt
-val_txt: test.txt
+data_type: fp32
+lr: 1e-4
+weight_decay: 5e-4
+print_interval: 3
+eval_interval: 5
+exp_dir: /home/rangeronmars/AI/mosquito-detector/nn/exp/exp1
+train_txt: /home/rangeronmars/AI/mosquito-detector/dataset/train.txt
+val_txt: /home/rangeronmars/AI/mosquito-detector/dataset/test.txt
 
 

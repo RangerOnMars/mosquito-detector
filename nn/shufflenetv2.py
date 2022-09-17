@@ -1,7 +1,7 @@
 from torch import nn
 import torch
 
-from .network_blocks import BaseConv, Focus, DWConv, BaseConv, ShuffleV2DownSampling, ShuffleV2Basic
+from network_blocks import BaseConv, Focus, DWConv, BaseConv, ShuffleV2DownSampling, ShuffleV2Basic
 
 class ShuffleNetModified(nn.Module):
     def __init__(
@@ -36,21 +36,20 @@ class ShuffleNetModified(nn.Module):
         for _ in range(stage_unit_repeat[2]):
             self.stage2_list.append(ShuffleV2Basic(base_channels[2], base_channels[2], act=act))
         self.stage4 = nn.Sequential(*self.stage4_list)
-        self.conv5 = BaseConv(base_channels[2], 1024, ksize=4,stride=2,act=act)
-        self.conv6 = BaseConv(1024,1,ksize=1,act=act)
+        self.conv5 = BaseConv(base_channels[2], 256, ksize=4,stride=4,act=act)
+        self.conv6 = BaseConv(256,1,ksize=1,stride=1,act=act,no_act=True)
 
     def forward(self, x):
-        outputs = {}
-        # print(x.shape)
         x = self.conv1(x)
         x = self.conv2(x)
         
         x = self.stage2(x)
         x = self.stage3(x)
         x = self.stage4(x)
-        
         x = self.conv5(x)
         x = self.conv6(x)
+        
+        x = torch.sigmoid(x)
         
         return x
     

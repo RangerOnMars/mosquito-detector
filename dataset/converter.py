@@ -88,7 +88,7 @@ if __name__ == "__main__":
                     imgs = wav2gasfs(os.path.join(src_dir, id + ".wav"),max_batch=round(basic_batch * 20))
                 for i in range(len(imgs)):
                     #Rescale from[-1,1] to [0,255]
-                    img = np.array((imgs[i] + 1) * 127,dtype=np.uint8)
+                    img = np.array((imgs[i] + 1) * 127.5,dtype=np.uint8)
                     img = np.reshape(img, (128,128))
                     cv2.imshow("1",img)
                     cv2.waitKey(10)
